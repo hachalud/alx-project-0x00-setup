@@ -13,6 +13,7 @@ const Landing: React.FC = () => {
           <div className="flex gap-3">
             <Button title="Small Rounded-sm" styles="text-sm rounded-sm" />
             <Button title="Small Rounded-md" styles="text-sm rounded-md" />
+            <Button title="Small Rounded-lg" styles="text-sm rounded-lg" />
             <Button title="Small Rounded-full" styles="text-sm rounded-full" />
           </div>
 
@@ -20,6 +21,7 @@ const Landing: React.FC = () => {
           <div className="flex gap-3">
             <Button title="Medium Rounded-sm" styles="text-base rounded-sm" />
             <Button title="Medium Rounded-md" styles="text-base rounded-md" />
+            <Button title="Medium Rounded-lg" styles="text-base rounded-lg" />
             <Button
               title="Medium Rounded-full"
               styles="text-base rounded-full"
@@ -35,6 +37,10 @@ const Landing: React.FC = () => {
             <Button
               title="Large Rounded-md"
               styles="text-lg rounded-md px-6 py-3"
+            />
+            <Button
+              title="Large Rounded-lg"
+              styles="text-lg rounded-lg px-6 py-3"
             />
             <Button
               title="Large Rounded-full"
